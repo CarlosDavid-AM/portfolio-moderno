@@ -7,21 +7,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 export function AuroraBackgroundDemo() {
   return (
     <div>
-      <nav>
-        <div className="flex justify-center items-center p-4 bg-white dark:bg-black shadow-md">
-          <div className="flex gap-4 items-center">
-            <a href="#" className="text-lg text-white">
-              Home
-            </a>
-            <a href="#" className="text-lg text-white">
-              About
-            </a>
-            <a href="#" className="text-lg text-white">
-              Contact
-            </a>
-          </div>
-        </div>
-      </nav>
+      
       <AuroraBackground>
         <motion.div
           initial={{ opacity: 0.0, y: 40 }}
@@ -33,10 +19,10 @@ export function AuroraBackgroundDemo() {
           }}
           className="relative flex flex-col gap-4 items-center justify-center px-4"
         >
-          <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
+          <div className="text-3xl md:text-5xl font-bold dark:text-white text-center">
             Carlos David A. Mendoza
           </div>
-          <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
+          <div className="font-extralight text-base md:text-2xl dark:text-neutral-200 py-4">
             Portafolio Moderno de Carlos David A. Mendoza
           </div>
           <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
