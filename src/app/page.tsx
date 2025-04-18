@@ -1,6 +1,4 @@
 import NavBar from "@/components/NavBar";
-import Nextjs from "@/components/svg/svgBack-End/Next";
-import { React } from "@/components/svg/svgFront-End/React";
 import { AuroraBackgroundDemo } from "@/features/AuroraBackground";
 
 export default function Home() {
@@ -13,11 +11,6 @@ export default function Home() {
         quibusdam quam hic cum odio, consequatur eveniet corrupti officiis
         pariatur voluptate praesentium porro at assumenda similique excepturi
         exercitationem in maxime?
-      </div>
-
-      <div className="flex items-center justify-center gap-5">
-        <React className="w-10 h-10 mt-4" />
-        <Nextjs className="w-10 h-10 mt-4" /> 
       </div>
     </main>
   );
