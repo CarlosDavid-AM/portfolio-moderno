@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import RestaurantApis from "@/components/projects/RestaurantApis";
 import UrlShortener from "@/components/projects/UrlShortener";
@@ -9,11 +10,14 @@ export default function Home() {
     <main>
       <NavBar />
 
-      {/* Home */}
+      {/* Home and Sills */}
       <AuroraBackgroundDemo />
 
       {/* Proyects */}
-      <div className="bg-zinc-200 dark:bg-zinc-950 text-black dark:text-white text-center py-10">
+      <div
+        id="proyectos"
+        className="bg-zinc-200 dark:bg-zinc-950 text-black dark:text-white text-center py-10"
+      >
         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-bold text-center text-black dark:text-white">
           Proyectos
         </h2>
@@ -25,6 +29,9 @@ export default function Home() {
 
       {/* About me */}
       <BackgroundLinesDemo />
+
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }

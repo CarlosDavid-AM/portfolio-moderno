@@ -1,21 +1,27 @@
+import Link from "next/link";
+import "@/css/NavBarCSS.css";
+
 const NavBar = () => {
   return (
-    <nav>
-        <div className="flex justify-center items-center p-4 bg-blue-100 dark:bg-zinc-950 text-center">
-          <div className="flex gap-4 items-center">
-            <a href="#" className="text-lg text-black dark:text-white">
-              Home
-            </a>
-            <a href="#" className="text-lg text-black dark:text-white">
-              About
-            </a>
-            <a href="#" className="text-lg text-black dark:text-white">
-              Contact
-            </a>
-          </div>
+    <nav className="nav-scroll">
+      <div className="nav-container">
+        <div className="link-container">
+          <Link href="/" className="link">
+            Home
+          </Link>
+          <Link href="#skills" className="link">
+            Skills
+          </Link>
+          <Link href="#proyectos" className="link">
+            Proyectos
+          </Link>
+          <Link href="#sobre-mi" className="link">
+            About me
+          </Link>
         </div>
-      </nav>
-  )
-}
+      </div>
+    </nav>
+  );
+};
 
-export default NavBar
+export default NavBar;

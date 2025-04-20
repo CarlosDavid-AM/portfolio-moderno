@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-scroll {
+  @apply sticky top-0 z-50;
+}
+
+.nav-container {
+  @apply flex justify-center items-center p-4 bg-zinc-200 dark:bg-zinc-950 text-center;
+}
+
+.link-container {
+  @apply flex gap-4 items-center;
+}
+
+.link {
+  @apply text-lg text-black dark:text-white;
+}

@@ -5,7 +5,10 @@ import Image from "next/image";
 export function BackgroundLinesDemo() {
   return (
     <BackgroundLines className="relative w-full min-h-screen z-0 flex items-center justify-center px-4 py-20">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 w-full max-w-7xl md:mx-20">
+      <div
+        id="sobre-mi"
+        className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 w-full max-w-7xl md:mx-20"
+      >
         {/* Texto y título */}
         <div className="flex flex-col gap-6 text-center lg:text-left max-w-2xl">
           <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-100 dark:to-white text-3xl md:text-5xl lg:text-6xl font-sans font-bold tracking-tight">

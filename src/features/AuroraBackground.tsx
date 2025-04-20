@@ -30,7 +30,12 @@ export function AuroraBackgroundDemo() {
             Debug now
           </button>
         </motion.div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-10 2xl:gap-x-36 w-full max-w-6xl px-4 mx-auto mt-8">
+
+        {/* Skills */}
+        <div
+          id="skills"
+          className="flex flex-col lg:flex-row justify-center items-center gap-10 2xl:gap-x-36 w-full max-w-6xl px-4 mx-auto mt-8"
+        >
           <FrontEnd />
           <BackEnd />
         </div>
