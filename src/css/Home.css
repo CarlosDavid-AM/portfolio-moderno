@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-2xl sm:text-4xl md:text-5xl 2xl:text-7xl font-bold dark:text-white text-center;
+}
+
+.subtitle {
+  @apply text-lg sm:text-xl md:text-2xl 2xl:text-4xl font-semibold dark:text-neutral-200;
+}
+
+.description {
+  @apply text-sm sm:text-base font-extralight text-black dark:text-white;
+}
+
+.contact-container {
+  @apply flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-x-6;
+}
+
+.link-gmail {
+  @apply bg-black hover:bg-gray-800 dark:bg-white dark:hover:bg-gray-500 transition duration-300 rounded-lg text-white dark:text-black px-4 py-2 font-bold;
+}
+
+.LinkedIn-GitHub {
+  @apply bg-white hover:bg-gray-500 dark:bg-black dark:hover:bg-gray-800 transition duration-300 rounded-lg text-black dark:text-white px-4 py-2 font-bold;
+}
+
+.title-skill {
+  @apply mt-12 font-semibold text-center text-xl sm:text-2xl 2xl:text-4xl dark:text-neutral-200;
+}
+
+.front-back {
+  @apply flex flex-col lg:flex-row justify-center items-center gap-10 2xl:gap-x-36 w-full max-w-6xl px-4 mx-auto mt-8;
+}
