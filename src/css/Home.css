@@ -15,7 +15,7 @@
 }
 
 .contact-container {
-  @apply flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-x-6;
+  @apply flex flex-wrap justify-center items-center gap-4 sm:gap-x-6;
 }
 
 .link-gmail {
@@ -27,7 +27,7 @@
 }
 
 .title-skill {
-  @apply mt-12 font-semibold text-center text-xl sm:text-2xl 2xl:text-4xl dark:text-neutral-200;
+  @apply mt-5 md:mt-12 font-semibold text-center text-xl sm:text-2xl 2xl:text-4xl dark:text-neutral-200;
 }
 
 .front-back {
