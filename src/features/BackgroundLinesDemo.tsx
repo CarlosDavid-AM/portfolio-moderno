@@ -15,16 +15,16 @@ export function BackgroundLinesDemo() {
             Sobre Mí
           </h2>
           <p className="text-base md:text-lg text-neutral-700 dark:text-neutral-300">
-            Soy un desarrollador web full-stack con más de 5 años de experiencia
-            creando aplicaciones web modernas y escalables. Mi pasión por la
-            tecnología comenzó desde temprana edad y me ha llevado a
-            especializarme en el desarrollo de soluciones digitales que combinan
-            funcionalidad y diseño. Me especializo en tecnologías JavaScript
-            modernas como React, Next.js y Node.js, pero siempre estoy
-            aprendiendo nuevas herramientas y frameworks para mantenerme
-            actualizado en este campo en constante evolución. Cuando no estoy
-            programando, disfruto de la fotografía, el senderismo y la lectura
-            de libros sobre ciencia y tecnología.
+            Hola, soy Carlos David Apolaya Mendoza, soy un Desarrollador Web
+            Full-Stack. Tengo experiencia en el desarrollo de Microservicios con
+            Java y Spring Boot, así como en la construcción de interfaces
+            modernas e interactivas usando React.js y tecnologías del ecosistema
+            JavaScript. <br /> Mi pasión por la programación me llevo a formarme
+            de manera autodidacta a través de la plataforma educativa en EDteam,
+            donde adquirí conocimientos sólidos en desarrollo web, bases de
+            datos, arquitectura de software y buenas prácticas de código.
+            Actualmente busco mi primera oportunidad laboral como Desarrollador
+            Web Full-Stack en una empresa de tecnología.
           </p>
         </div>
 
