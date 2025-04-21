@@ -64,7 +64,7 @@ export function AuroraBackgroundDemo() {
         </motion.div>
 
         {/* Skills */}
-        <h2 className="title-skill">Skills</h2>
+        <h2 className="title-skill scroll-mt-24">Skills</h2>
         <div id="skills" className="front-back">
           <FrontEnd />
           <BackEnd />

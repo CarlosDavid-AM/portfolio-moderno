@@ -16,7 +16,7 @@ export default function Home() {
       {/* Proyects */}
       <div
         id="proyectos"
-        className="bg-zinc-200 dark:bg-zinc-950 text-black dark:text-white text-center py-10"
+        className="scroll-mt-14 mt-32 md:mt-0 bg-zinc-200 dark:bg-zinc-950 text-black dark:text-white text-center py-10"
       >
         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-bold text-center text-black dark:text-white">
           Proyectos

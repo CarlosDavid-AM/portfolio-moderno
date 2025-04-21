@@ -31,5 +31,5 @@
 }
 
 .front-back {
-  @apply flex flex-col lg:flex-row justify-center items-center gap-10 2xl:gap-x-36 w-full max-w-6xl px-4 mx-auto mt-8;
+  @apply flex flex-col lg:flex-row justify-center items-center gap-10 2xl:gap-x-36 w-full max-w-6xl px-4 mx-auto mt-8 scroll-mt-32 md:scroll-mt-36;
 }
